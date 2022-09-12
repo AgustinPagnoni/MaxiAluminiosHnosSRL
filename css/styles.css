@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color:rgb(255, 43, 43);
+    background-image: linear-gradient(to bottom, red, yellow);
 }
 
 header h1 {
@@ -27,7 +28,7 @@ nav ul {
     flex-direction: row;
     text-align: right; 
     padding: 30px;
-    background-color:rgb(255, 43, 43);
+    background-image: linear-gradient(to bottom, red, yellow);
 } 
 
 nav ul li a {
@@ -58,10 +59,12 @@ nav ul li {
 .productosmaxialuminios h2 {
     grid-area: h2;
     font-size: 30px;
+    padding: 40px;
 }
 
 .productosmaxialuminios .h2-dos {
     grid-area: h2-dos;
+    padding: 40px;
 }
 
 .productosmaxialuminios .h2-tres {
@@ -70,7 +73,7 @@ nav ul li {
 
 .productosmaxialuminios img {
     grid-area: img;
-    width: 50%;
+    width: 35%;
 }
 
 .productosmaxialuminios p{
@@ -93,6 +96,18 @@ nav ul li {
 
 .productosmaxialuminios .p-tres {
     grid-area: p-tres;
+}
+
+.imgventana {
+    transform: rotate(10deg);
+}
+
+.img-dos {
+    transform: rotate(10deg);
+}
+
+.img-tres {
+    transform: rotate(10deg);
 }
 
 /*Estilos de Sucursales*/
@@ -172,8 +187,8 @@ nav ul li {
 }
 
 footer h3 {
-    text-align: center;
-    margin-top: 30px;
+    text-align: left;
+    margin-top: 90px;
 }
 
 /*Visualizacion distintos dispositivos*/
