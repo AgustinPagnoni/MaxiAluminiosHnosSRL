@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">    
     <title>Sobre nosotros</title>
 </head>
 <body>
@@ -12,13 +14,23 @@
       <header>
         <h1>Maxialuminios Hnos SRL</h1>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
-                <li><a href="sucursales.html">Sucursales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/sobrenosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/sucursales.html">Sucursales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                  </li>
+              </ul>
         </nav>
     </header>
      <!--Contenido principal-->
@@ -45,6 +57,12 @@
      <!--Pie de pagina-->
      <footer>
         <h3>2022 MaxiAluminios Hnos SRL - Todos los derechos reservados</h3>
+        <aside>
+            <p>Seguinos en <a rel="facebook" href="https://www.facebook.com/people/MaxiAluminios-Hnos-SRL/100075972065574/">Facebook</a></p>
+          </aside>
+          <aside>
+              <p>Seguinos en <a rel="Instagram" href="https://www.instagram.com/maxi_aluminios_hnos_srl/">instagram</a></p>
+            </aside>
         <p>Teléfono: 1122276538</p>
         <p>Quilmes 4541 - Paso del rey <br>
         Moreno<br>
@@ -53,5 +71,7 @@
         <p>ventas@maxialuminios.com.ar<br>
             apagnoni@maxialuminios.com.ar</p>
      </footer>
+     <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
