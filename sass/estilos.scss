@@ -12,14 +12,14 @@ body {
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: $color-principal;
     background-image: linear-gradient(to bottom, red, yellow);
     text-decoration: $formato-texto;
-    h1{
-        text-decoration: $formato-texto;
-        text-align: center;
-        margin: 20px;
-        color : white
+    
+    img{
+     width: 20%;
+     margin: 1rem;
     }
     nav{
         ul{
@@ -40,7 +40,6 @@ header{
 }
 
 // Estilos de productos 
-main {
 .productosmaxialuminios {
     display: grid;
     grid-template-columns: auto ;
@@ -96,7 +95,6 @@ main {
     .img-tres {
         transform: rotate(10deg);
     }
-}
 
 // Estilo de sucursales 
 
@@ -121,6 +119,10 @@ main {
 }
 
 // Estilo de Sobre nosotros
+main {
+    text-align: center;
+}
+
 .h2-nuestra-mision {
     margin-top: 60px;
     font-size: 28px;
@@ -145,6 +147,9 @@ main {
 
 .p-nuestros-valores {
     font-size: 23px;
+}
+.listado {
+    list-style: none;
 }
 
 legend {
@@ -177,18 +182,17 @@ label {
 }
 
 // Estilos de Footer
+
 footer{
-    text-align: center;
+    margin-top: 4rem;
+    background-color: #f2592c;
+    padding: 4rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
     color: black;
     font-size: 25px;
-    h3 {
-        text-align: center;
-        margin-top: 90px;
-        font-size: 40px;
-    }
-}
-.facebook- {
-    margin-top: 50px;
 }
 
 // Visualizacion distintos dispositivos

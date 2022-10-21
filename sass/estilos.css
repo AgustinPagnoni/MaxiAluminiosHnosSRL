@@ -3,20 +3,22 @@
   padding: 0%;
 }
 
+body {
+  background-color: rgb(222, 222, 157);
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: rgb(255, 43, 43);
   background-image: linear-gradient(to bottom, red, yellow);
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
-header h1 {
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
-  text-align: center;
-  margin: 20px;
-  color: white;
+header img {
+  width: 20%;
+  margin: 1rem;
 }
 header nav ul {
   display: flex;
@@ -33,53 +35,65 @@ header nav ul li a {
   color: white;
 }
 
-main .productosmaxialuminios {
+.productosmaxialuminios {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-template-areas: "h2 h2" "img p" "h2-dos h2-dos" "p-dos img-dos" "h2-tres h2-tres" "img-tres p-tres";
   justify-items: center;
 }
-main .productosmaxialuminios h2 {
+
+.productosmaxialuminios h2 {
   grid-area: h2;
   font-size: 30px;
   padding: 40px;
 }
-main .productosmaxialuminios .h2-dos {
+
+.productosmaxialuminios .h2-dos {
   grid-area: h2-dos;
   padding: 40px;
 }
-main .productosmaxialuminios .h2-tres {
+
+.productosmaxialuminios .h2-tres {
   grid-area: h2-tres;
 }
-main .productosmaxialuminios img {
+
+.productosmaxialuminios img {
   grid-area: img;
   width: 35%;
 }
-main .productosmaxialuminios p {
+
+.productosmaxialuminios p {
   grid-area: p;
   align-self: center;
   font-size: 20px;
 }
-main .productosmaxialuminios .p-dos {
+
+.productosmaxialuminios .p-dos {
   grid-area: p-dos;
 }
-main .productosmaxialuminios .img-dos {
+
+.productosmaxialuminios .img-dos {
   grid-area: img-dos;
 }
-main .productosmaxialuminios .img-tres {
+
+.productosmaxialuminios .img-tres {
   grid-area: img-tres;
 }
-main .productosmaxialuminios .p-tres {
+
+.productosmaxialuminios .p-tres {
   grid-area: p-tres;
 }
-main .imgventana {
+
+.imgventana {
   transform: rotate(10deg);
 }
-main .img-dos {
+
+.img-dos {
   transform: rotate(10deg);
 }
-main .img-tres {
+
+.img-tres {
   transform: rotate(10deg);
 }
 
@@ -102,6 +116,10 @@ main .img-tres {
 .nuestrasucursallink {
   text-align: center;
   padding: 30px;
+}
+
+main {
+  text-align: center;
 }
 
 .h2-nuestra-mision {
@@ -129,6 +147,10 @@ main .img-tres {
 
 .p-nuestros-valores {
   font-size: 23px;
+}
+
+.listado {
+  list-style: none;
 }
 
 legend {
@@ -159,18 +181,15 @@ label {
 }
 
 footer {
-  text-align: center;
+  margin-top: 4rem;
+  background-color: #f2592c;
+  padding: 4rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
   color: black;
   font-size: 25px;
-}
-footer h3 {
-  text-align: center;
-  margin-top: 90px;
-  font-size: 40px;
-}
-
-.facebook- {
-  margin-top: 50px;
 }
 
 @media screen and (max-width: 480px) {
