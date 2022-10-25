@@ -14,7 +14,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: $color-principal;
-    background-image: linear-gradient(to bottom, red, yellow);
+    background-image: linear-gradient(to bottom, #ff0000, #ffff00);
     text-decoration: $formato-texto;
     
     img{
@@ -25,11 +25,11 @@ header{
         ul{
             display: flex;
             flex-direction: row;
-            text-align: right; 
+            text-align: right;
             padding: 30px;
             background-image: linear-gradient(to bottom, red, yellow);
             li{
-                list-style: none;
+                list-style:none;
                 padding: 20px;
                 a{
                     color : white;
@@ -185,7 +185,7 @@ label {
 
 footer{
     margin-top: 4rem;
-    background-color: #f2592c;
+    background-color:#ede50e ;
     padding: 4rem;
     display: flex;
     gap: 3rem;

@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 43, 43);
-  background-image: linear-gradient(to bottom, red, yellow);
+  background-image: linear-gradient(to bottom, #ff0000, #ffff00);
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
@@ -182,7 +182,7 @@ label {
 
 footer {
   margin-top: 4rem;
-  background-color: #f2592c;
+  background-color: #ede50e;
   padding: 4rem;
   display: flex;
   gap: 3rem;
